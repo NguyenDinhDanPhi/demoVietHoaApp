@@ -16,6 +16,7 @@
 		D0057FB829A71FB50068C725 /* demoVietHoaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0057FB729A71FB50068C725 /* demoVietHoaTests.swift */; };
 		D0057FC229A71FB50068C725 /* demoVietHoaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0057FC129A71FB50068C725 /* demoVietHoaUITests.swift */; };
 		D0057FC429A71FB50068C725 /* demoVietHoaUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0057FC329A71FB50068C725 /* demoVietHoaUITestsLaunchTests.swift */; };
+		D0057FD329A721410068C725 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = D0057FD529A721410068C725 /* Localizable.strings */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,9 @@
 		D0057FBD29A71FB50068C725 /* demoVietHoaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = demoVietHoaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0057FC129A71FB50068C725 /* demoVietHoaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = demoVietHoaUITests.swift; sourceTree = "<group>"; };
 		D0057FC329A71FB50068C725 /* demoVietHoaUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = demoVietHoaUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		D0057FD029A720E80068C725 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Main.strings; sourceTree = "<group>"; };
+		D0057FD429A721410068C725 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		D0057FD629A721450068C725 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Localizable.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +110,7 @@
 				D0057FA929A71FB40068C725 /* Assets.xcassets */,
 				D0057FAB29A71FB40068C725 /* LaunchScreen.storyboard */,
 				D0057FAE29A71FB40068C725 /* Info.plist */,
+				D0057FD529A721410068C725 /* Localizable.strings */,
 			);
 			path = demoVietHoa;
 			sourceTree = "<group>";
@@ -213,6 +218,7 @@
 			knownRegions = (
 				en,
 				Base,
+				es,
 			);
 			mainGroup = D0057F9429A71FB30068C725;
 			productRefGroup = D0057F9E29A71FB30068C725 /* Products */;
@@ -232,6 +238,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D0057FAD29A71FB40068C725 /* LaunchScreen.storyboard in Resources */,
+				D0057FD329A721410068C725 /* Localizable.strings in Resources */,
 				D0057FAA29A71FB40068C725 /* Assets.xcassets in Resources */,
 				D0057FA829A71FB40068C725 /* Main.storyboard in Resources */,
 			);
@@ -301,6 +308,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				D0057FA729A71FB40068C725 /* Base */,
+				D0057FD029A720E80068C725 /* es */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -313,6 +321,15 @@
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
+		D0057FD529A721410068C725 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D0057FD429A721410068C725 /* en */,
+				D0057FD629A721450068C725 /* es */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
@@ -320,6 +337,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
@@ -380,6 +398,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
